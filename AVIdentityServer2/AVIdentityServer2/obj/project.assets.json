@@ -12730,11 +12730,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandra.damaschin\\Desktop\\AVIdentityServer2\\AVIdentityServer2\\AVIdentityServer2.csproj",
+      "projectUniqueName": "C:\\Users\\alexandra.damaschin\\Desktop\\Git\\AVIdentityServer2\\AVIdentityServer2\\AVIdentityServer2.csproj",
       "projectName": "AVIdentityServer2",
-      "projectPath": "C:\\Users\\alexandra.damaschin\\Desktop\\AVIdentityServer2\\AVIdentityServer2\\AVIdentityServer2.csproj",
+      "projectPath": "C:\\Users\\alexandra.damaschin\\Desktop\\Git\\AVIdentityServer2\\AVIdentityServer2\\AVIdentityServer2.csproj",
       "packagesPath": "C:\\Users\\alexandra.damaschin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandra.damaschin\\Desktop\\AVIdentityServer2\\AVIdentityServer2\\obj\\",
+      "outputPath": "C:\\Users\\alexandra.damaschin\\Desktop\\Git\\AVIdentityServer2\\AVIdentityServer2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

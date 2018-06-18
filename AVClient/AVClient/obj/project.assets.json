@@ -12543,11 +12543,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandra.damaschin\\Desktop\\AVClient\\AVClient\\AVClient.csproj",
+      "projectUniqueName": "C:\\Users\\alexandra.damaschin\\Desktop\\Git\\AVClient\\AVClient\\AVClient.csproj",
       "projectName": "AVClient",
-      "projectPath": "C:\\Users\\alexandra.damaschin\\Desktop\\AVClient\\AVClient\\AVClient.csproj",
+      "projectPath": "C:\\Users\\alexandra.damaschin\\Desktop\\Git\\AVClient\\AVClient\\AVClient.csproj",
       "packagesPath": "C:\\Users\\alexandra.damaschin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandra.damaschin\\Desktop\\AVClient\\AVClient\\obj\\",
+      "outputPath": "C:\\Users\\alexandra.damaschin\\Desktop\\Git\\AVClient\\AVClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
