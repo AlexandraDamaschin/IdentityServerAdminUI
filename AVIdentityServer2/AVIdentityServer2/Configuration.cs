@@ -16,7 +16,7 @@ namespace AVIdentityServer2
                 return new List<Client> {
                     //av client app to test
                      new Client
-                    {
+                     {
                          ClientId = "av_client_app",
                          ClientName = "AVClientApplication",
 
@@ -31,8 +31,30 @@ namespace AVIdentityServer2
                              IdentityServerConstants.StandardScopes.OpenId,
                              IdentityServerConstants.StandardScopes.Profile,
                              IdentityServerConstants.StandardScopes.Email,
-                             "av_api.read",
-                             "av_api.write",
+                             "av_api",
+                             //"av_api.read",
+                             //"av_api.write",
+                             "role"
+                         }
+                     },
+                     //admin ui client
+                      new Client
+                     {
+                         ClientId = "admin_ui_sample",
+                         ClientName = "Admin UI Client Application",
+
+                         AllowedGrantTypes = GrantTypes.Implicit,
+
+                         //automatically created and handled by an upcoming piece of middleware
+                         RedirectUris = { "http://localhost:5002/signin-oidc" },
+                         PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+
+                         AllowedScopes =
+                         {
+                             IdentityServerConstants.StandardScopes.OpenId,
+                             IdentityServerConstants.StandardScopes.Profile,
+                             IdentityServerConstants.StandardScopes.Email,
+                             "av_api",
                              "role"
                          }
                      }
