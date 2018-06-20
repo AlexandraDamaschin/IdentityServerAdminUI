@@ -4,7 +4,7 @@
 
 using System;
 
-namespace IdentityServer4.Quickstart.UI
+namespace Rsk.Samples.IdentityServer4.AdminUiIntegration.Quickstart.Account
 {
     public class AccountOptions
     {
@@ -15,11 +15,15 @@ namespace IdentityServer4.Quickstart.UI
         public static bool ShowLogoutPrompt = true;
         public static bool AutomaticRedirectAfterSignOut = false;
 
-        // specify the Windows authentication scheme being used
-        public static readonly string WindowsAuthenticationSchemeName = Microsoft.AspNetCore.Server.IISIntegration.IISDefaults.AuthenticationScheme;
-        // if user uses windows auth, should we load the groups from windows
+        // to enable windows authentication, the host (IIS or IIS Express) also must have 
+        // windows auth enabled.
+        public static bool WindowsAuthenticationEnabled = true;
         public static bool IncludeWindowsGroups = false;
+        // specify the Windows authentication scheme and display name
+        public static readonly string WindowsAuthenticationSchemeName = "Windows";
 
         public static string InvalidCredentialsErrorMessage = "Invalid username or password";
+        public static string InvalidUsernameErrorMessage = "Username does not exist";
+        public static string UserHasPassword = "User already has a password";
     }
 }

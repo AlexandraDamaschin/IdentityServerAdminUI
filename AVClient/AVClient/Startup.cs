@@ -34,7 +34,7 @@ namespace AVClient
             .AddOpenIdConnect(options =>
             {
                 options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme; // cookie middle setup above
-                options.Authority = "http://ids:5003"; // Auth Server
+                options.Authority = "http://localhost:5100/"; // Auth Server
                 options.RequireHttpsMetadata = false; // only for development 
                 options.ClientId = "3b3f16c421054321bc1b91eb997ff7ce"; // client unique id
                 options.ResponseType = "code id_token"; // means Hybrid flow (id + access token)
