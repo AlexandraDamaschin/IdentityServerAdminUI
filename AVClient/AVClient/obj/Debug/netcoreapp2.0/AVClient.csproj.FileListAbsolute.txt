@@ -9,3 +9,14 @@ C:\Users\alexandra.damaschin\Desktop\AVClient\AVClient\obj\Debug\netcoreapp2.0\A
 C:\Users\alexandra.damaschin\Desktop\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.dll
 C:\Users\alexandra.damaschin\Desktop\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.pdb
 C:\Users\alexandra.damaschin\Desktop\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.csprojResolveAssemblyReference.cache
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\bin\Debug\netcoreapp2.0\AVClient.deps.json
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\bin\Debug\netcoreapp2.0\AVClient.runtimeconfig.json
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\bin\Debug\netcoreapp2.0\AVClient.runtimeconfig.dev.json
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\bin\Debug\netcoreapp2.0\AVClient.dll
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\bin\Debug\netcoreapp2.0\AVClient.pdb
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.csprojResolveAssemblyReference.cache
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.csproj.CoreCompileInputs.cache
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.AssemblyInfoInputs.cache
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.AssemblyInfo.cs
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.dll
+C:\Users\alexandra.damaschin\Desktop\Git\AVClient\AVClient\obj\Debug\netcoreapp2.0\AVClient.pdb

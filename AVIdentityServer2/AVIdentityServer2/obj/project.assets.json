@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "IdentityExpress.Identity/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityExpress.Identity.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityExpress.Identity.dll": {}
+        }
+      },
       "IdentityModel/3.6.1": {
         "type": "package",
         "dependencies": {
@@ -4770,6 +4783,16 @@
     }
   },
   "libraries": {
+    "IdentityExpress.Identity/2.0.0": {
+      "sha512": "Ajf0ZjCaJ3zYAGkgSG8F3V3OmjrAnsxtLNX3quB4Cu1G+rWvgbGgzI1iJBvqEnpX1R8US1WayqddmBfKK2EchA==",
+      "type": "package",
+      "path": "identityexpress.identity/2.0.0",
+      "files": [
+        "identityexpress.identity.2.0.0.nupkg.sha512",
+        "identityexpress.identity.nuspec",
+        "lib/netstandard2.0/IdentityExpress.Identity.dll"
+      ]
+    },
     "IdentityModel/3.6.1": {
       "sha512": "JvpnyoP49cF16sImPcdM0A7keVGs+mpG7KCnJ3c1zOwsxXexhN/hqkZua6Cr/9KZcVw6/wsRQfEgY3QMsjsQpw==",
       "type": "package",
@@ -12713,6 +12736,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "IdentityExpress.Identity >= 2.0.0",
       "IdentityServer4 >= 2.2.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.AspNetCore.Mvc >= 2.1.0",
@@ -12784,6 +12808,10 @@
           "IdentityServer4": {
             "target": "Package",
             "version": "2.2.0"
+          },
+          "IdentityExpress.Identity": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [
