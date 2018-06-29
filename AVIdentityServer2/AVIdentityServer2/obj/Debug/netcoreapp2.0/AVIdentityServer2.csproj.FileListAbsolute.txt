@@ -19,3 +19,4 @@ C:\Users\alexandra.damaschin\Desktop\Git\AVIdentityServer2\AVIdentityServer2\obj
 C:\Users\alexandra.damaschin\Desktop\Git\AVIdentityServer2\AVIdentityServer2\obj\Debug\netcoreapp2.0\AVIdentityServer2.AssemblyInfo.cs
 C:\Users\alexandra.damaschin\Desktop\Git\AVIdentityServer2\AVIdentityServer2\obj\Debug\netcoreapp2.0\AVIdentityServer2.dll
 C:\Users\alexandra.damaschin\Desktop\Git\AVIdentityServer2\AVIdentityServer2\obj\Debug\netcoreapp2.0\AVIdentityServer2.pdb
+C:\Users\alexandra.damaschin\Desktop\Git\AVIdentityServer2\AVIdentityServer2\obj\Debug\netcoreapp2.0\AVIdentityServer2.csprojResolveAssemblyReference.cache

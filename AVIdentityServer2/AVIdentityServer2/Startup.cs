@@ -8,7 +8,7 @@ using IdentityServer4.Test;
 using Microsoft.Extensions.Configuration;
 using System;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection;
+using System.Reflection; 
 using Microsoft.AspNetCore.Identity;
 using IdentityExpress.Identity;
 
@@ -31,7 +31,6 @@ namespace AVIdentityServer2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             Action<DbContextOptionsBuilder> identityBuilder;
             Action<DbContextOptionsBuilder> identityServerBuilder;
             var identityConnectionString = Configuration.GetValue("IdentityConnectionString", Configuration.GetValue<string>("DbConnectionString"));
@@ -97,7 +96,6 @@ namespace AVIdentityServer2
             app.UseStaticFiles();
 
             app.UseMvcWithDefaultRoute();
-
         }
     }
 }

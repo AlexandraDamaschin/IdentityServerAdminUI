@@ -15,7 +15,7 @@ namespace AVIdentityServer2
             WebHost.CreateDefaultBuilder(args)
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseStartup<Startup>()
-                .UseUrls("http://*:5003")
+                .UseUrls("http://*:5003") //http://ids:5003/
                 .UseIISIntegration()
                 .UseKestrel()
                 .Build();
